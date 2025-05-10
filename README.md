@@ -1,13 +1,8 @@
-streamlit
+## 📄 Code (app.py)
 
-# Interactive Web App with Streamlit and Scikit-learn
+```python
+import streamlit as st
 
-Explore different datasets and classifiers in an interactive web interface. This app demonstrates how easy it is to build web applications using **Streamlit** and **Scikit-learn**. Streamlit lets you create interactive data apps with simple Python scripts.
+st.title("Hello Streamlit")
 
----
-
-## ⚙️ Installation
-
-Install the necessary dependencies:
-
-```bash
+st.write("This is a sample app.")
